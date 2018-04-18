@@ -1,0 +1,35 @@
+{
+  "name": "react-te-cli",
+  "version": "0.0.1",
+  "description": "react cli tool",
+  "main": "index.js",
+  "bin": {
+    "react-te-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinjiaxing/react-te-cli.git"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "react-template-easily"
+  ],
+  "author": "jinjiaxing(34568305@qq.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinjiaxing/react-te-cli/issues"
+  },
+  "homepage": "https://github.com/jinjiaxing/react-te-cli#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "commander": "^2.15.1",
+    "git-clone": "^0.1.0",
+    "shelljs": "^0.8.1"
+  }
+}
